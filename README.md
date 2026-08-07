@@ -9,10 +9,10 @@ Sitio estático de una sola página. Todo (imágenes, fuentes, estilos) está de
 2. Arrastra esta carpeta completa a la zona de "Deploy"
 3. Listo. Vercel te da la URL.
 
-**Opción con GitHub**
-1. Crea un repo nuevo (ej. `portafolio`) y sube el contenido de esta carpeta a la raíz.
-2. En Vercel: New Project → Import Git Repository → selecciona el repo.
-3. Framework Preset: **Other**. Build Command: vacío. Output Directory: vacío (raíz).
+**Opción con GitHub** (es la que usa este repo)
+1. `index.html` ya está en la raíz del repo — Vercel lo detecta sin configuración extra.
+2. En Vercel: New Project → Import Git Repository → selecciona este repo.
+3. Framework Preset: **Other**. Build Command: vacío. Output Directory: vacío (raíz). Root Directory: `./`
 4. Deploy.
 
 ## Dominio propio
