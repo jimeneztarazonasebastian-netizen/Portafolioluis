@@ -1,4 +1,4 @@
-# Portafolio — Luis Santiago Jiménez
+# Portafolio — Luis Santiago Tarazona Jiménez
 
 Sitio estático de una sola página. Todo (imágenes, fuentes, estilos) está dentro de `index.html`.
 
@@ -14,6 +14,12 @@ Sitio estático de una sola página. Todo (imágenes, fuentes, estilos) está de
 2. En Vercel: New Project → Import Git Repository → selecciona este repo.
 3. Framework Preset: **Other**. Build Command: vacío. Output Directory: vacío (raíz). Root Directory: `./`
 4. Deploy.
+
+## Hoja de vida (PDF)
+
+El botón «Descargar hoja de vida» del hero apunta a `/CV_Luis_Santiago_Tarazona_ES.pdf`.
+Este proyecto **no tiene carpeta `public/`**: Vercel sirve la raíz del repo, así que el PDF
+va en la raíz, junto a `index.html`, y hay que **commitearlo** para que quede publicado.
 
 ## Dominio propio
 En Vercel → Settings → Domains → Add. Si compras un dominio (ej. luissantiago.dev), apuntas los DNS que Vercel te indique.
