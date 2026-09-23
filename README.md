@@ -17,9 +17,18 @@ Sitio estático de una sola página. Todo (imágenes, fuentes, estilos) está de
 
 ## Hoja de vida (PDF)
 
-El botón «Descargar hoja de vida» del hero apunta a `/CV_Luis_Santiago_Tarazona_ES.pdf`.
-Este proyecto **no tiene carpeta `public/`**: Vercel sirve la raíz del repo, así que el PDF
-va en la raíz, junto a `index.html`, y hay que **commitearlo** para que quede publicado.
+El botón «Descargar hoja de vida» del hero apunta a `/CV_Luis_Santiago_Tarazona_ES.pdf`, y
+en la versión inglesa de la página a `/CV_Luis_Santiago_Tarazona_EN.pdf` (el enlace lleva
+las dos rutas en `data-href-es` y `data-href-en`, y el módulo de idioma elige).
+Este proyecto **no tiene carpeta `public/`**: Vercel sirve la raíz del repo, así que los PDF
+van en la raíz, junto a `index.html`, y hay que **commitearlos** para que queden publicados.
+
+## Iconos
+
+`favicon.ico` (16, 32 y 48 px), `icon-192.png` y `apple-touch-icon.png` salen del logo TJ
+de la intro, sobre una baldosa del fondo oscuro de la página. Van enlazados en las dos
+cabeceras de `index.html`: la exterior, que es la que leen buscadores y vistas previas, y
+la del template.
 
 ## Dominio propio
 En Vercel → Settings → Domains → Add. Si compras un dominio (ej. luissantiago.dev), apuntas los DNS que Vercel te indique.
